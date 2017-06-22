@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ScrollView01"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg3"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.sudhanshumishra.astrovision.Cancer"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="1350dp"
+            android:weightSum="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="CANCER"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:background="@drawable/cancer" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="600dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#F4F6F7"
+                    android:text="Strength:\n
+- Loyalty\n
+- Dependable\n
+- Caring\n
+- Adaptable\n
+- Responsive\n\n
+
+Weakness:\n
+- Moody\n
+- Clingy\n
+- Self-pitying\n
+- Oversensitive\n
+- Self-absorbed\n\n
+
+Cancer is the astrology sign that is packed \n
+full of contradictions so when it comes to independence,\n
+they possibly can or can not be independent. On one side, \n
+they have the perseverance and drive to do what needs to be \n
+done, they are self-sufficient and do not need to depend on \n
+other people for the material and physical things in life. On \n
+the other hand, they depend on people for emotional support \n
+and encouragement."
+                    />
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:id="@+id/tv_luck"
+                android:textColor="#F4F6F7"
+                />
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:background="#FAD7A0"
+                android:textColorHint="#A569BD"
+                android:id="@id/edt_msg"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="140dp"
+                android:text="call"
+                android:onClick="callme"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="140dp"
+                android:text="sms"
+                android:onClick="send"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            >
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Sign Out"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_marginLeft="120dp"
+                android:onClick="signout"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

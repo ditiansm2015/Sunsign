@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sudhanshumishra.astrovision.AboutMe"
+    android:orientation="vertical"
+    android:background="@drawable/bg24"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="@drawable/bg6"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT ME"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#F0F3F4"
+
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg9"
+    >
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="210dp"
+        android:src="@drawable/aboutme"
+
+        />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="\t\t\t\t\t\t\tSudhanshu Mishra"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ScrollView01"
+        android:fillViewport="false"
+        android:fadeScrollbars="true"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/bg21"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#F4D03F"
+            android:text="Hello users!! I am Sudhanshu Mishra, developer of the \napp AstroVision. I am pursuing B.Tech in Computer \nScience from DIT University,Dehradun. This app has been \ndeveloped by me as per the Summer Training project in\nPRECURSOR, Lucknow.This app has taught me many \nnew things and so I am very much grateful and therefore \nthank my Mentor Swasti ma'am who have given me the perfect training in Android from June 2016 to July 2016.\nHope this app helps you to find more about yourself"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

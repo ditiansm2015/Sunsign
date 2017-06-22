@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sudhanshumishra.astrovision" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/astrovisionicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".Aries" >
+        </activity>
+        <activity android:name=".Cancer" >
+        </activity>
+        <activity android:name=".Capricorn" >
+        </activity>
+        <activity android:name=".Gemini" >
+        </activity>
+        <activity android:name=".Leo" >
+        </activity>
+        <activity android:name=".Libra" >
+        </activity>
+        <activity android:name=".MsgSent" >
+        </activity>
+        <activity android:name=".Pisces" >
+        </activity>
+        <activity android:name=".Sagittarius" >
+        </activity>
+        <activity android:name=".Scorpio" >
+        </activity>
+        <activity android:name=".SplashWindow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Virgo" >
+        </activity>
+        <activity android:name=".Welcome" >
+        </activity>
+        <activity android:name=".Aquarius" >
+        </activity>
+        <activity android:name=".ContactMe" >
+        </activity>
+        <activity android:name=".AboutMe" >
+        </activity>
+    </application>
+
+</manifest>
